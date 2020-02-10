@@ -16,6 +16,7 @@ mempool:
 p2p: 
   gossip_interval: 10s
   listen_address: /ip4/0.0.0.0/tcp/3000
+  max_bootstrap_attempts: 0
   max_connections: 1024
   max_unreachable_nodes_to_connect_per_event: 20
   policy: 
